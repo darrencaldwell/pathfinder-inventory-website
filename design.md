@@ -44,6 +44,16 @@ Good for ensuring correctness if a document store db is used?
 
 Fast?
 
-Experience using it.
+I have experience using it.
 
 ### Database
+Probably a document store noSQL db like mongodb.
+Has a Rust crate so should be fine
+
+### Deployment
+Obviously automate deployment using Docker because it's fun.
+Cross-platform usage etc etc, easy deployment.
+
+### Backups
+Should I do these internally?
+Program could dump copies, but could also leave to system admin level (docker?) to auto backup db.
